@@ -1,3 +1,5 @@
+                                                      AWS Employee Profile Management System
+
 📌 Project Overview
 
 The AWS Employee Profile Management System is a cloud-based solution designed to manage employee profiles securely and efficiently. Employees can input their details, upload profile pictures, and retrieve their information. The project is hosted on AWS, ensuring high availability, security, and scalability.
