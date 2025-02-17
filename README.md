@@ -50,3 +50,22 @@ Set up security policies and IAM roles.
 Upload a new employee profile and check S3 for images.
 Ensure Route 53 directs traffic correctly.
 Verify SNS notifications upon photo uploads.
+
+✅ How to Check Output
+
+Access the Application:
+Open the web application by hitting the Route 53 domain or Load Balancer URL in your browser.
+Fill in employee details (Name, Location, Technology, Salary).
+Upload a profile picture.
+
+Verify Data Storage:
+Log into RDS (MySQL) and check the employee table to confirm data entry.
+Use AWS DynamoDB Console to verify image metadata storage.
+
+Check S3 Uploads:
+Open AWS S3 Console and navigate to the assigned bucket.
+Ensure the profile image is uploaded successfully.
+
+Validate Email Notification:
+Check the email inbox of the registered employee.
+A confirmation email should be received via AWS SNS.
